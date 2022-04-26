@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto+Serif:wght@300&family=Roboto+Slab:wght@300&display=swap');
+
+body {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 24px;
+    color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #ffffff;
+
+}
+
+header {
+	background-color: #1A2C34;
+	padding: 0.25rem 1rem;
+	font-family: 'Roboto Serif', serif;
+	letter-spacing: 0.5rem;
+}
+
+main {
+	margin: 0 auto;
+	max-width: 90vh;
+	padding: 1rem;
+}
+
+h2 {
+	text-transform: uppercase;
+	letter-spacing: 0.25rem;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 2rem;
+}
+
+.section-grid {
+	background-color: #243b47;
+	border-radius: 1.5rem;
+	padding: 1.5rem;
+	box-shadow: ;
+}
+
+.main-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 1rem;
+}
+
+.main-grid h3 {
+	margin-bottom: 0;
+	font-weight: normal;
+	font-size: inherit;
+}
+
+.sub-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+    grid-gap: 0.5rem;
+    align-items: center;
+    max-width: 100%;
+}
+
+.total {
+	background-color: #1A2C34;
+    border-radius: 1.5rem;
+    max-width: 100%;
+    height: 2.25rem;
+}
+
+.length {
+	background-color: #76c2c2;
+	color: #ffffff;
+    border-radius: 1.5rem;
+    max-width: 100%;
+    height: 2.25rem;
+    overflow: hidden;
+}
+
+hr {
+	width: 30px;
+	border: none;
+	border-top: 6px dotted #76c2c2;
+}
+
+footer {
+	padding: 0.5rem 1rem;
+	margin-top: 1rem;
+	background-color: #1A2C34;
+	font-family: 'Roboto Serif', serif;
+	letter-spacing: 0.15rem;
+}
+
+@media only screen and (min-width: 768px) {
+
+	main {
+		max-width: 80%;
+	}
+
+	.grid {
+    	grid-template-columns: 1fr 1fr;
+    }
+
+}
