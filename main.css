@@ -6,7 +6,7 @@ body {
     color: #ffffff;
     margin: 0 auto;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #76c2c260;
 
 }
 
@@ -15,6 +15,7 @@ header {
 	padding: 0.25rem 1rem;
 	font-family: 'Roboto Serif', serif;
 	letter-spacing: 0.5rem;
+	box-shadow: -3px 3px 10px 3px #00000085;
 }
 
 main {
@@ -24,8 +25,24 @@ main {
 }
 
 h2 {
+	font-size: 2.75rem;
+	background-color: #1A2C34;
+    padding: 0.75rem 6rem;
+    border-radius: 1.5rem;
+    box-shadow: 0px 2px 10px 3px #00000085;
+    width: fit-content;
+    margin: 2rem auto;
+    font-family: 'Roboto Serif', serif;
+    font-weight: normal;
+}
+
+h2, h3 {
 	text-transform: uppercase;
-	letter-spacing: 0.25rem;
+	letter-spacing: 0.5rem;
+}
+
+h3 {
+	font-size: 2.25rem;
 }
 
 .grid {
@@ -38,7 +55,7 @@ h2 {
 	background-color: #243b47;
 	border-radius: 1.5rem;
 	padding: 1.5rem;
-	box-shadow: ;
+	box-shadow: 0px 2px 10px 3px #00000085;
 }
 
 .main-grid {
@@ -47,7 +64,7 @@ h2 {
 	grid-gap: 1rem;
 }
 
-.main-grid h3 {
+.main-grid h4 {
 	margin-bottom: 0;
 	font-weight: normal;
 	font-size: inherit;
@@ -83,12 +100,26 @@ hr {
 	border-top: 6px dotted #76c2c2;
 }
 
+a {
+	text-decoration: none;
+	color: #243b47;
+}
+
 footer {
 	padding: 0.5rem 1rem;
 	margin-top: 1rem;
 	background-color: #1A2C34;
 	font-family: 'Roboto Serif', serif;
 	letter-spacing: 0.15rem;
+	box-shadow: 3px -3px 10px 3px #00000085;
+}
+
+footer a {
+	color: #76c2c2;
+}
+
+footer a:hover {
+	color: #ffffff;
 }
 
 @media only screen and (min-width: 768px) {
