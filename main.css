@@ -44,6 +44,7 @@ h2 {
 
 h3 {
   font-size: 2rem;
+  margin: 0.25rem;
 }
 
 .my-story {
@@ -65,13 +66,13 @@ h3 {
 }
 
 .card {
-  background-color: #243b47;
+  background-color: #1a2c34;
   color: #ffffff;
   padding: 0.5rem;
 }
 
 .card a {
-  color: #76c2c2;
+  color: #ffffff;
   text-align: left !important;
 }
 
@@ -83,7 +84,7 @@ h3 {
 }
 
 .lang {
-  background-color: #1a2c34;
+  background-color: #243b47;
   color: #76c2c2;
   border-radius: 1rem;
   padding: 0.25rem 1rem ;
