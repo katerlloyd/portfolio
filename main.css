@@ -72,7 +72,7 @@ h3 {
 
 .card a {
   color: #243b47;
-  text-align: left;
+  text-align: left !important;
 }
 
 .langFlex {
