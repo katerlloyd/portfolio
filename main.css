@@ -77,6 +77,11 @@ h3 {
 	gap: 1rem;
 }
 
+.lang {
+	background-color: #1A2C34;
+	border: 1px solid #ffffff;
+}
+
 .section-grid {
 	background-color: #243b47;
 	border-radius: 1.5rem;
