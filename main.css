@@ -91,7 +91,8 @@ h3 {
   background-color: #243b47;
   color: #76c2c2;
   border-radius: 1rem;
-  padding: 0.25rem 1rem ;
+  padding: 0.25rem 1rem;
+  margin: 0;
 }
 
 .section-grid {
