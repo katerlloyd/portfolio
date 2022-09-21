@@ -84,6 +84,7 @@ h3 {
 .lang {
   background-color: #1a2c34;
   border: 1px solid #ffffff;
+  border-radius: 1.5rem;
 }
 
 .section-grid {
