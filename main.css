@@ -59,10 +59,22 @@ h3 {
     padding: 2rem;
 }
 
-.grid {
+.projectGrid {
 	display: grid;
-	grid-template-columns: 1fr;
-	grid-gap: 2rem;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 1rem;
+}
+
+.card {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.langFlex {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 1rem;
 }
 
 .section-grid {
