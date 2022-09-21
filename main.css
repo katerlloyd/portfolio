@@ -2,7 +2,7 @@
 
 body {
   font-family: "Roboto Mono", monospace;
-  font-size: 24px;
+  font-size: 20px;
   color: #ffffff;
   margin: 0 auto;
   text-align: center;
@@ -78,13 +78,14 @@ h3 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 1rem;
 }
 
 .lang {
   background-color: #1a2c34;
   border: 1px solid #ffffff;
   border-radius: 1.5rem;
+  padding: 0.5rem;
+  margin: 1rem;
 }
 
 .section-grid {
