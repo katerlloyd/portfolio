@@ -65,13 +65,13 @@ h3 {
 }
 
 .card {
-  background-color: #76c2c2;
+  background-color: #243b47;
   color: #ffffff;
   padding: 0.5rem;
 }
 
 .card a {
-  color: #243b47;
+  color: #76c2c2;
   text-align: left !important;
 }
 
@@ -84,10 +84,10 @@ h3 {
 
 .lang {
   background-color: #1a2c34;
-  color: #243b47;
+  color: #76c2c2;
   border-radius: 1rem;
   padding: 0.25rem 1rem ;
-  margin: 0.5rem;
+  margin: 0.25rem;
 }
 
 .section-grid {
