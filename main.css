@@ -156,6 +156,7 @@ footer {
   font-family: "Roboto Serif", serif;
   letter-spacing: 0.15rem;
   box-shadow: 3px -3px 10px 3px #00000085;
+  text-align: center;
 }
 
 footer a {
