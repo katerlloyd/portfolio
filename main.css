@@ -1,52 +1,95 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto+Serif:wght@300&family=Roboto+Slab:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gruppo:wght@600&family=Roboto+Mono:wght@300&family=Cabin+Sketch:wght@400&family=Roboto+Slab:wght@300&display=swap");
 
 body {
-  font-family: "Roboto Mono", monospace;
-  font-size: 20px;
-  color: #ffffff;
+  font-family: "Gruppo", monospace;
+  font-size: 24px;
+  color: #1a2c34;
   margin: 0 auto;
-  background-color: #76c2c260;
+  background-color: #ffffff;
 }
 
-header {
-  background-color: #1a2c34;
-  padding: 0.25rem 1rem;
-  box-shadow: -3px 3px 10px 3px #00000085;
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: end;
+  justify-items: center;
+  /* box-shadow: -3px 3px 10px 3px #00000085; */
+  font-family: "Bebas Neue", serif;
+  letter-spacing: 0.25rem;
+  background-image: linear-gradient(
+    to bottom,
+    #000000 85%,
+    #cc5500,
+    #ffa500,
+    #f7e997,
+    #ffffff
+  );
+  padding-bottom: 1.75rem;
+}
+
+nav a {
+  color: #ffffff;
+  padding: 1rem;
+}
+
+nav a:hover {
+  color: #ffa500;
 }
 
 main {
   margin: 0 auto;
-  max-width: 90vh;
+  max-width: 80vw;
   padding: 1rem;
-}
-
-h1 {
-  letter-spacing: 0.5rem;
-  font-family: "Roboto Serif", serif;
-  text-align: center;
+  box-sizing: border-box;
 }
 
 h2 {
-  font-size: 2.75rem;
-  padding: 1rem;
-  border-radius: 1.5rem;
-  width: fit-content;
+  font-size: 2rem;
+  padding: 1rem 4rem;
+  max-width: fit-content;
   margin: 2rem auto;
-  font-family: "Roboto Serif", serif;
-  font-weight: normal;
-  color: #76c2c2;
+  font-family: "Bebas Neue", serif;
+  color: #ffffff;
   text-align: center;
-}
-
-h2 {
   text-transform: uppercase;
   letter-spacing: 0.5rem;
-  text-align: center;
+  background-image: linear-gradient(
+    to right,
+    #ffffff,
+    #f7e997,
+    #ffa500,
+    #cc5500,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #cc5500,
+    #ffa500,
+    #f7e997,
+    #ffffff
+  );
 }
 
 h3 {
+  font-family: "Bebas Neue", serif;
+  letter-spacing: 0.25rem;
   font-size: 2rem;
   margin: 0.25rem;
+  font-weight: normal;
   text-align: center;
 }
 
@@ -71,12 +114,17 @@ h3 {
 .card {
   background-color: #1a2c34;
   color: #ffffff;
-  padding: 1rem;
+  padding: 1rem 1.5rem;
+  border-radius: 1.5rem;
 }
 
 .card a {
   color: #76c2c2;
   font-size: 0.75rem;
+}
+
+.card a:hover {
+  text-decoration: underline;
 }
 
 .langFlex {
@@ -152,27 +200,43 @@ a {
 footer {
   padding: 0.5rem 1rem;
   margin-top: 1rem;
-  background-color: #1a2c34;
-  font-family: "Roboto Serif", serif;
+  color: #ffffff;
   letter-spacing: 0.15rem;
-  box-shadow: 3px -3px 10px 3px #00000085;
   text-align: center;
+  background-image: linear-gradient(
+    to top,
+    #000000 85%,
+    #cc5500,
+    #ffa500,
+    #f7e997,
+    #ffffff
+  );
 }
 
 footer a {
-  color: #76c2c2;
+  color: #ffa500;
 }
 
 footer a:hover {
   color: #ffffff;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 1200px) {
   main {
-    max-width: 80%;
+    max-width: 90vw;
   }
 
-  .grid {
+  .projectGrid {
     grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  main {
+    max-width: 95vw;
+  }
+
+  .projectGrid {
+    grid-template-columns: 1fr;
   }
 }
