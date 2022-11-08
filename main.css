@@ -38,9 +38,9 @@ nav a:hover {
 }
 
 main {
+  padding: 1rem;
   margin: 0 auto;
   max-width: 80vw;
-  padding: 1rem;
   box-sizing: border-box;
 }
 
@@ -93,10 +93,76 @@ h3 {
   text-align: center;
 }
 
+.frame {
+  text-align: center;
+}
+
+iframe {
+  border-radius: 0.5rem;
+}
+
 .my-story {
   background-color: #243b47;
   border-radius: 1.5rem;
   padding: 0.5rem 2rem;
+}
+
+#myStory {
+  text-align: center;
+  border-radius: 1.5rem;
+  color: #ffffff;
+  padding: 2rem;
+  margin: 3rem 0;
+  background-color: #161a1c;
+  /* background-image: linear-gradient(
+    to bottom,
+    #f7e997,
+    #ffa500,
+    #cc5500,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #000000,
+    #cc5500,
+    #ffa500,
+    #f7e997
+  ); */
 }
 
 .skills {
@@ -107,20 +173,25 @@ h3 {
 
 .projectGrid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
+}
+
+.codebase {
+  display: block;
 }
 
 .card {
   background-color: #1a2c34;
   color: #ffffff;
-  padding: 1rem 1.5rem;
+  padding: 1rem 2rem;
   border-radius: 1.5rem;
+  max-height: 100%;
 }
 
 .card a {
   color: #76c2c2;
-  font-size: 0.75rem;
+  font-size: 1rem;
 }
 
 .card a:hover {
@@ -141,6 +212,7 @@ h3 {
   border-radius: 1rem;
   padding: 0.25rem 1rem;
   margin: 0;
+  /* max-height: fit-content; */
 }
 
 .section-grid {
@@ -224,10 +296,6 @@ footer a:hover {
 @media only screen and (max-width: 1200px) {
   main {
     max-width: 90vw;
-  }
-
-  .projectGrid {
-    grid-template-columns: 1fr 1fr;
   }
 }
 
